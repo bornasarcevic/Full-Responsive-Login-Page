@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1 - Login Page</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="login-container">
+            <form>
+                <div class="login-message">
+                    <p>Welcome,</p>
+                    <p>Login with your credentials.</p>
+                </div>
+                <input class="login-username" type="text" placeholder="Username">
+                <input class="login-password" type="password" placeholder="Password">
+                <a id ="forgot-your-password" href="#">Forgot your password?</a>
+                <button class="login-button">Login</button>
+            </form>
+        </div>
+
+        <div class="signup-container">
+            <form>
+                <div class="signup-message">
+                    <p>Don't have account?</p>
+                    <p>Create one.</p>
+                </div>
+                <input class="signup-first-name" type="text" placeholder="First name">
+                <input class="signup-last-name" type="text" placeholder="Last name">
+                <input class="signup-email" type="email" placeholder="E-mail">
+                <input class="signup-password" type="password" placeholder="Password">
+                <input class="signup-password-repeat" type="password" placeholder="Repeat password">
+                <button class="signup-button">Sign Up</button>
+            </form>
+        </div>
+    <script src="script.js"></script>
+  </body>
+</html>
